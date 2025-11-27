@@ -1,0 +1,32 @@
+{
+  "name": "study-night",
+  "version": "1.0.0",
+  "description": "A flashcard application for studying and learning. Create custom study sets with flashcards to help you master any subject.",
+  "type": "module",
+  "source": "index.html",
+  "scripts": {
+    "test": "mocha",
+    "gulp": "gulp",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [
+    "flashcards",
+    "study",
+    "learning",
+    "education"
+  ],
+  "author": "Ahmad Herzalla",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "chai": "^6.2.1",
+    "cypress": "^15.7.0",
+    "eslint": "^9.39.1",
+    "gulp": "^5.0.1",
+    "gulp-cli": "^3.1.0",
+    "gulp-shell": "^0.8.0",
+    "mocha": "^11.7.5",
+    "parcel": "^2.16.1"
+  }
+}
