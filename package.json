@@ -6,6 +6,8 @@
   "source": "index.html",
   "scripts": {
     "test": "mocha",
+    "lint": "eslint . --ext .js",
+    "lint:fix": "eslint . --ext .js --fix",
     "gulp": "gulp",
     "start": "parcel index.html",
     "build": "parcel build index.html"
