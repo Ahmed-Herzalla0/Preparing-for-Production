@@ -27,7 +27,7 @@
     "eslint": "^9.39.1",
     "gulp": "^5.0.1",
     "gulp-cli": "^3.1.0",
-    "gulp-shell": "^0.8.0",
+    "gulp-shell": "file:vendor/gulp-shell",
     "mocha": "^11.7.5",
     "parcel": "^2.16.1"
   }

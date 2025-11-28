@@ -1,0 +1,9 @@
+{
+  "name": "gulp-shell",
+  "version": "0.8.0",
+  "description": "Local shim of gulp-shell that executes shell commands without vulnerable lodash.template",
+  "type": "module",
+  "main": "index.js",
+  "exports": "./index.js",
+  "license": "MIT"
+}
